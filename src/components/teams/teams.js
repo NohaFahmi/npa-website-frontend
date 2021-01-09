@@ -19,11 +19,12 @@ class Teams extends Component {
     renderAllTeams = ({ teamsList }) => {
         if (teamsList) {
             return teamsList.map((team) => {
+                // console.log(`teams/${team._id}`)
                 return (
                     <div className='team-logo' key={team._id}>
-                        <a href={`teams/${team._id}`}>
+                        <Link to={`teams/${team._id}`}>
                             <img src={`../../assets/teams/${team.logo}`} alt={team.name} />
-                        </a>
+                        </Link>
                     </div>
                 )
             })
