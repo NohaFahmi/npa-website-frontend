@@ -8,9 +8,6 @@ const Subscribe = (props) => {
     const [mail, setMail] = useState('');
     const [validate, setValidate] = useState('');
 
-
-
-
     const validateEmail = (email) => {
         const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
@@ -30,6 +27,7 @@ const Subscribe = (props) => {
             setValidate('fail');
         }
     }
+
     return (
         <div className='subscribe-container'>
 

@@ -18,7 +18,6 @@ function App() {
     <Provider store={createStoreWithMW(reducers)}>
 
       <BrowserRouter>
-
         <TopNavbar />
         <Switch>
           <Route path='/teams/:id' component={Team} />
@@ -32,8 +31,6 @@ function App() {
         </Switch>
         <Footer />
       </BrowserRouter>
-
-
     </Provider>
 
   );
