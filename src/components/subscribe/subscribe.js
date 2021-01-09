@@ -48,7 +48,7 @@ const Subscribe = (props) => {
     )
 }
 const mapStateToProps = (state) => {
-    // console.log("STATE SUB", state.teams.sub)
+    console.log("STATE SUB", state.teams.sub)
     return {
         msg: state.teams.sub
     }
