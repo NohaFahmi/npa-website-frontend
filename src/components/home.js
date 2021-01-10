@@ -1,5 +1,5 @@
 import Header from './header/header';
-import Subscribe from './subscribe/subscribe';
+// import Subscribe from './subscribe/subscribe';
 import Highlights from './highlights/highlights';
 import NextChampion from './next-champions/next-champions';
 
@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="App">
             <Header />
-            <Subscribe />
+            {/* <Subscribe /> */}
             <Highlights />
             <NextChampion />
         </div>
