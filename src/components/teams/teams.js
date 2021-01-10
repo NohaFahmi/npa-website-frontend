@@ -2,7 +2,7 @@ import { Component } from 'react';
 import './teams.css'
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
-import { Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import AddTeamModal from './addTeamModal';
 class Teams extends Component {
     constructor() {

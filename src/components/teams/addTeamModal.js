@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Icon, Image, Modal, Form } from 'semantic-ui-react'
+import { Button, Icon, Modal, Form } from 'semantic-ui-react'
 
 const AddTeamModal = ({ props }) => {
 

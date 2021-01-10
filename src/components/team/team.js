@@ -5,12 +5,7 @@ import * as actions from '../../actions';
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
 import UploadModal from './uploadModal';
 class Team extends Component {
-    constructor() {
-        super();
-    }
-
-    addAMember = () => {
-    }
+   
 
     renderDetails = ({ teamDetail }) => {
         let baseImagesURL = 'https://npabackendapis.nohaa.repl.co/assets/teams'

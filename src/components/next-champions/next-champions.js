@@ -1,8 +1,6 @@
 import './next-champions.css';
-import warriors from '../../assets/teams/warriors.png';
-import cavaliers from '../../assets/teams/cavaliers.png';
-import knicks from '../../assets/teams/knicks.png';
-import { useEffect, Component } from 'react';
+
+import {Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions'
 
